@@ -31,28 +31,28 @@ My development philosophy is anchored in **modular architecture**, **strict thre
 
 ### 🚀 Selected Works & Technical Deep Dives
 
-#### [AuraKit](link-to-repo) — *Spatial Context & Persistent Memory Engine*
+#### [AuraKit](https://github.com/MrDavudGunduz/AuraKit) — *Spatial Context & Persistent Memory Engine*
 An open-source, privacy-first memory layer engineered to bridge the gap between ephemeral spatial data and persistent storage on Apple platforms.
 *   **Architecture:** Built entirely on Swift 6 Concurrency with strict actor-isolated data pipelines.
 *   **Security:** Features end-to-end AES-GCM encryption for all locally persisted spatial data.
 *   **Status:** Leading the `1.0.0-alpha` development phase, optimizing core APIs and memory management.
 
-#### [OshiUI](link-to-repo) — *Modular Spatial Design System*
+#### [OshiUI](https://github.com/MrDavudGunduz/OshiUI) — *Modular Spatial Design System*
 A highly modular, cross-platform UI framework strictly tailored for the bleeding edge of Apple's OS lineup (iOS 18+, macOS 15+, visionOS 2+).
 *   **Design Philosophy:** Integrates advanced physics dynamics, authentic glassmorphism, and volumetric interactions.
 *   **Engineering:** Architected with discrete modular targets to minimize app bundle size and compile times, allowing developers to import only necessary rendering engines.
 
-#### [Vivist](link-to-repo) — *PropTech Augmented Reality Platform*
-An innovative solution dynamically transforming vacant real estate into photorealistic, fully furnished living spaces via on-device AI and AR.
-*   **Rendering:** Deep integration of RealityKit and ARKit for real-time 3D object placement, occlusion, and physical lighting estimation.
-*   **Data Layer:** Utilizes SwiftData for robust, high-performance local caching of user-generated spatial configurations and 3D models.
-
-#### [Nerve](link-to-repo) — *Spatial News Intelligence & Visualization*
+#### [Nerve](https://github.com/MrDavudGunduz/Nerve) — *Spatial News Intelligence & Visualization*
 A smart platform bridging traditional text consumption with spatial data visualization.
 *   **Core Logic:** Features a custom, performance-driven data clustering algorithm processing massive news streams in real-time.
 *   **Architecture:** Built on a scalable, type-safe dependency injection model, ensuring decoupled, testable, and maintainable network and rendering modules.
 
-#### [RainbowXAR](link-to-repo) — *Kinetic Match-3 Spatial Game*
+#### Vivist — *PropTech Augmented Reality Platform*
+An innovative solution dynamically transforming vacant real estate into photorealistic, fully furnished living spaces via on-device AI and AR.
+*   **Rendering:** Deep integration of RealityKit and ARKit for real-time 3D object placement, occlusion, and physical lighting estimation.
+*   **Data Layer:** Utilizes SwiftData for robust, high-performance local caching of user-generated spatial configurations and 3D models.
+
+#### RainbowXAR — *Kinetic Match-3 Spatial Game*
 A spatial computing reimagination of traditional grid-based mechanics, currently executing a comprehensive 18-month technical roadmap.
 *   **Physics Engine:** Calculates material-specific kinetic designs (e.g., simulating the varied physical properties of glass vs. rubber).
 *   **Dimensionality:** Introduces complex Z-axis layering, demanding spatial reasoning and depth perception while maintaining 90+ FPS rendering loops.
@@ -61,10 +61,11 @@ A spatial computing reimagination of traditional grid-based mechanics, currently
 
 ### 🤝 Open Source & Community
 
-I am a strong advocate for the open-source ecosystem and community-driven engineering. I actively welcome architectural discussions, Issues, and Pull Requests for my foundational frameworks:
+I am a strong advocate for the open-source ecosystem and community-driven engineering. I actively welcome architectural discussions, Issues, and Pull Requests for my repositories:
 
 *   **AuraKit:** Seeking collaboration from developers experienced in Swift 6 concurrency, actor-isolated optimizations, and complex memory management.
 *   **OshiUI:** Open to contributions involving new glassmorphism components, advanced physics-based animations, or new framework targets.
+*   **Nerve:** Welcoming discussions and optimizations on performance-driven data clustering and spatial data visualization techniques.
 
 *Please review the `CONTRIBUTING.md` guidelines in the respective repositories to get involved.*
 
